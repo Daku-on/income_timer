@@ -24,8 +24,8 @@ fn main() {
     println!("あなたの1分あたりの収入は {:.2} 円です", income_per_minute);
 
     let start_time = Instant::now();
-    println!("現在の総収入: {:.2} 円", 0);
-    
+    println!("現在の総収入: 0円");
+
     loop {
         // Wait for a minute
         sleep(Duration::from_secs(60));
@@ -42,5 +42,3 @@ fn main() {
         }
     }
 }
-
-
